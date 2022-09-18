@@ -185,10 +185,6 @@ input {
     align-items: center;
 }
 
-.Post_image {
-    width: 100%;
-}
-
 .Author img {
     width: 32px;
     height: 32px;
@@ -219,6 +215,10 @@ input {
     background-color: #efefef;
 }
 
+.Post_image {
+    width: 100%;
+}
+
 .Interactions {
     height: 37.6px;
     padding-left: 15px;
@@ -232,7 +232,7 @@ input {
     margin-right: 14px;
 }
 
-.Interactions ion-icon:nth-child(4) {
+.Interactions ion-icon:nth-of-type(4) {
     margin: 0 14px 0 auto;
 }
 
